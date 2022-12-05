@@ -30,7 +30,7 @@
 .footer-text button {
     padding: 15px;
     width: 60%;
-    background-color: blueviolet;
+    background-color: blue;
     border: none;
     border-radius: 15px;
     color: white;
@@ -41,7 +41,7 @@
 }
 
 .footer-text button:hover {
-    color: blueviolet;
+    color: blue;
     background: white;
     scale: 1.2;
 }
