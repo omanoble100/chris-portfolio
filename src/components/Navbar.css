@@ -1,0 +1,41 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.nav-links {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+    padding: 10px;
+    transition: all ease-out .3s;
+}
+
+.nav-links a span {
+    color: blue;
+}
+
+.nav-links a span:hover{
+    color: white;
+}
+
+.nav-links a:hover {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 90px;
+}
